@@ -1,0 +1,19 @@
+name: AuroraCatalog
+options:
+  bundleIdPrefix: com.smsmurilo
+  deploymentTarget: { iOS: "16.0" }
+packages:
+  AuroraDS:
+    path: ..
+targets:
+  AuroraCatalog:
+    type: application
+    platform: iOS
+    sources: [Catalog]
+    dependencies:
+      - package: AuroraDS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.smsmurilo.auroracatalog
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
