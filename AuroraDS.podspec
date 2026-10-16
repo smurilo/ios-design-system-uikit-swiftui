@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
   s.version       = '1.2.0'
   s.summary       = 'Design System com componentes UIKit e SwiftUI baseados nos mesmos tokens.'
   s.description   = 'Tokens de cor, tipografia (Dynamic Type) e espaçamento; botões, campos com máscara (CPF, CNPJ, telefone, moeda), cards, badges e toasts para UIKit e SwiftUI.'
-  s.homepage      = 'https://github.com/smsmurilo/ios-design-system-uikit-swiftui'
+  s.homepage      = 'https://github.com/smurilo/ios-design-system-uikit-swiftui'
   s.license       = { :type => 'MIT' }
   s.author        = { 'Sérgio Murilo' => 'smsmurilo@gmail.com' }
-  s.source        = { :git => 'https://github.com/smsmurilo/ios-design-system-uikit-swiftui.git', :tag => s.version.to_s }
+  s.source        = { :git => 'https://github.com/smurilo/ios-design-system-uikit-swiftui.git', :tag => s.version.to_s }
   s.platform      = :ios, '15.0'
   s.swift_version = '5.9'
 

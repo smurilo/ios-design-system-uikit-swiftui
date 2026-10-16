@@ -28,12 +28,12 @@ Example/Catalog    app catálogo com UIKit e SwiftUI lado a lado
 ## Instalação
 ```ruby
 # CocoaPods
-pod 'AuroraDS', :git => 'https://github.com/smsmurilo/ios-design-system-uikit-swiftui.git', :tag => '1.2.0'
+pod 'AuroraDS', :git => 'https://github.com/smurilo/ios-design-system-uikit-swiftui.git', :tag => '1.2.0'
 pod 'AuroraDS/UIKit'          # somente UIKit
 ```
 ```swift
 // Swift Package Manager
-.package(url: "https://github.com/smsmurilo/ios-design-system-uikit-swiftui.git", from: "1.2.0")
+.package(url: "https://github.com/smurilo/ios-design-system-uikit-swiftui.git", from: "1.2.0")
 ```
 
 ## Uso
